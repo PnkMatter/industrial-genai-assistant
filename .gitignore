@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# PDFs gerados (dados de teste — gerados pelo scripts/generate_test_pdfs.py)
+data/*.pdf
+
+# Banco de vetores ChromaDB (gerado pelo ingest.py)
+chroma_db/
+
+# Ambiente virtual Python
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Scripts utilitários locais
+scripts/
